@@ -1,10 +1,20 @@
 import {Control, type ControlOptions, DomEvent, DomUtil, Map as LeafletMap} from 'leaflet';
 
+/**
+ * Expandable control.
+ */
 export abstract class ExpandableControl extends Control {
     private _toggleClass: string;
     private _contentClass: string;
     private _container: HTMLElement | undefined;
 
+    /**
+     * Constructor.
+     *
+     * @param toggleClass Toggle class.
+     * @param contentClass Content class.
+     * @param options Options.
+     */
     constructor(toggleClass: string, contentClass: string, options?: ControlOptions) {
         super(options);
 
@@ -12,6 +22,12 @@ export abstract class ExpandableControl extends Control {
         this._contentClass = contentClass;
     }
 
+    /**
+     * Create control contents.
+     *
+     * @param container Container element.
+     * @protected
+     */
     protected abstract createControl(container: HTMLElement): void;
 
     public override onAdd(map: LeafletMap): HTMLElement {
