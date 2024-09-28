@@ -1,0 +1,52 @@
+.leaflet-control-expandable {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    background: #fff;
+    border-radius: 5px;
+}
+
+.leaflet-control-expandable-toggle {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.leaflet-retina .leaflet-control-expandable-toggle {
+}
+
+.leaflet-touch .leaflet-control-expandable-toggle {
+    width: 44px;
+    height: 44px;
+}
+
+.leaflet-control-expandable .leaflet-control-expandable-content,
+.leaflet-control-expandable-expanded .leaflet-control-expandable-toggle {
+    display: none;
+}
+
+.leaflet-control-expandable-expanded .leaflet-control-expandable-content {
+    display: block;
+    position: relative;
+}
+
+.leaflet-control-expandable-expanded {
+    padding: 6px 10px 6px 6px;
+    color: #333;
+    background: #fff;
+}
+
+.leaflet-control-expandable-scrollbar {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 5px;
+}
+
+.leaflet-touch .leaflet-control-expandable {
+    box-shadow: none;
+}
+
+.leaflet-touch .leaflet-control-expandable {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+}

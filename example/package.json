@@ -1,0 +1,18 @@
+{
+  "name": "leaflet-expandable-control-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "devDependencies": {
+    "@types/leaflet": "1.9.12",
+    "typescript": "5.6.2",
+    "vite": "5.4.8"
+  },
+  "dependencies": {
+    "leaflet": "1.9.4",
+    "leaflet-expandable-control": "link:../"
+  }
+}

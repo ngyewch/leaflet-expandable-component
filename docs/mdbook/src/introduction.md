@@ -5,3 +5,11 @@
 # @ngyewch/leaflet-expandable-control
 
 Library for creating expandable controls similar to [Control.Layers](https://leafletjs.com/reference.html#control-layers).
+
+[Typedoc](./typedoc/)
+
+## Playground
+
+<div>
+{{#include playground.html}}
+</div>

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "index.html": {},
+    "index.ts": {},
+    "testControl.ts": {},
+    "global.css": {},
+    "package.json": {},
+    "images/test.png": {
+      "hidden": true
+    },
+    "images/test-2x.png": {
+      "hidden": true
+    }
+  },
+  "importMap": {
+    "imports": {
+      "leaflet": "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/+esm"
+    }
+  }
+}

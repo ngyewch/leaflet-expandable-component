@@ -1,0 +1,10 @@
+[book]
+authors = ["Nick Ng"]
+language = "en"
+multilingual = false
+title = "@ngyewch/leaflet-expandable-control"
+
+[output.html]
+additional-css = ["custom.css"]
+git-repository-url = "https://github.com/ngyewch/leaflet-expandable-control"
+site-url = "/leaflet-expandable-control/"
