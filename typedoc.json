@@ -1,0 +1,20 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src/index.ts"],
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "excludeNotDocumented": false,
+  "out": "build/gh-pages/typedoc",
+  "validation": {
+    "notExported": true,
+    "invalidLink": true,
+    "notDocumented": true
+  },
+  "externalSymbolLinkMappings": {
+    "@types/leaflet": {
+      "Control": "https://leafletjs.com/reference.html#control",
+      "ControlOptions": "https://leafletjs.com/reference.html#control-option",
+      "Map": "https://leafletjs.com/reference.html#map-factory"
+    }
+  }
+}
