@@ -19,14 +19,14 @@ importers:
         specifier: 5.6.2
         version: 5.6.2
       validate-package-exports:
-        specifier: 0.6.1
-        version: 0.6.1
+        specifier: 0.7.0
+        version: 0.7.0
       vite:
-        specifier: 5.4.7
-        version: 5.4.7
+        specifier: 5.4.8
+        version: 5.4.8
       vite-plugin-dts:
-        specifier: 4.2.1
-        version: 4.2.1(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7)
+        specifier: 4.2.2
+        version: 4.2.2(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.8)
 
 packages:
 
@@ -457,8 +457,8 @@ packages:
   '@vue/shared@3.5.8':
     resolution: {integrity: sha512-mJleSWbAGySd2RJdX1RBtcrUBX6snyOc0qHpgk3lGi4l9/P/3ny3ELqFWqYdkXIwwNN/kdm8nD9ky8o6l/Lx2A==}
 
-  '@webdeveric/utils@0.32.0':
-    resolution: {integrity: sha512-JGeyJeYPVgkpc9fTCa1HRPqz+ElEkexhuvizvRsxEO+2rWGPMKqnpmShTt+NYslHL0ggWYOS8hHPw1uEmDm77w==}
+  '@webdeveric/utils@0.37.0':
+    resolution: {integrity: sha512-mUNfO5RG1LlmkJmAuPeBM9UhV64cuEjKkac6U2QUB0m2rBO3GV5OPTiIf5uuTjXRCeiqqJsUNrhkg/EV8VFK9g==}
     engines: {node: '>=18.0.0'}
 
   abbrev@2.0.0:
@@ -694,6 +694,10 @@ packages:
     resolution: {integrity: sha512-VuuG0wCnjhnylG1ABXT3dAuIpTNDs/G8jlpmwXY03fXoXy/8ZK8/T+hMzt8L4WnrLCJgdybqgPagnF/f97cg3A==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
+  ignore-walk@7.0.0:
+    resolution: {integrity: sha512-T4gbf83A4NH95zvhVYZc+qWocBBGlpzUXLPGurJggw/WIOwicfXJChLDP/iBZnN5WqROSu5Bm3hhle4z8a8YGQ==}
+    engines: {node: ^18.17.0 || >=20.5.0}
+
   import-lazy@4.0.0:
     resolution: {integrity: sha512-rKtvo6a868b5Hu3heneU+L4yEQ4jYKLtjpnPeUdK7h0yzXGmyBTypknlkCvHFBqfX9YlorEiMM6Dnq/5atfHkw==}
     engines: {node: '>=8'}
@@ -896,6 +900,10 @@ packages:
   npm-packlist@8.0.2:
     resolution: {integrity: sha512-shYrPFIS/JLP4oQmAwDyk5HcyysKW8/JLTEA32S0Z5TzvpaeeX2yMFfoK1fjEBnCBvVyIB/Jj/GBFdm0wsgzbA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+
+  npm-packlist@9.0.0:
+    resolution: {integrity: sha512-8qSayfmHJQTx3nJWYbbUmflpyarbLMBc6LCAjYsiGtXxDB68HaZpb8re6zeaLGxZzDuMdhsg70jryJe+RrItVQ==}
+    engines: {node: ^18.17.0 || >=20.5.0}
 
   npm-pick-manifest@9.1.0:
     resolution: {integrity: sha512-nkc+3pIIhqHVQr085X9d2JzPzLyjzQS96zbruppqC9aZRm/x8xx6xhI98gHtsfELP2bE+loHq8ZaHFHhe+NauA==}
@@ -1163,13 +1171,13 @@ packages:
     resolution: {integrity: sha512-OljLrQ9SQdOUqTaQxqL5dEfZWrXExyyWsozYlAWFawPVNuD83igl7uJD2RTkNMbniIYgt8l81eCJGIdQF7avLQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
-  validate-package-exports@0.6.1:
-    resolution: {integrity: sha512-hektf2TnP3rDX7CZJQqEe/Y4bJWVoYBkUagFEbVZ+P7up2uL4/IkgWmowgNCXVuBM2SIa11mUMtQMn3jSbFAvA==}
-    engines: {node: '>=18.14.0'}
+  validate-package-exports@0.7.0:
+    resolution: {integrity: sha512-HVbN9Eii0DwfRsFA7S/FZh/zRgi/4FOJhxoI+sIaS7awGzPLg00f8CuWLp82O+uZQGD8vZYHBerkPrT0pMuEJQ==}
+    engines: {node: '>=18.17.0'}
     hasBin: true
 
-  vite-plugin-dts@4.2.1:
-    resolution: {integrity: sha512-/QlYvgUMiv8+ZTEerhNCYnYaZMM07cdlX6hQCR/w/g/nTh0tUXPoYwbT6SitizLJ9BybT1lnrcZgqheI6wromQ==}
+  vite-plugin-dts@4.2.2:
+    resolution: {integrity: sha512-USwTMReZFf8yXV+cKkm4WOMqmFjbReAvkyxON5xzdnZzJEBnFgax6BBDZIGGr9WMJYvhHdpaIHLrOjXDcla4OA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
@@ -1178,8 +1186,8 @@ packages:
       vite:
         optional: true
 
-  vite@5.4.7:
-    resolution: {integrity: sha512-5l2zxqMEPVENgvzTuBpHer2awaetimj2BGkhBPdnwKbPNOlHsODU+oiazEZzLK7KhAnOrO+XGYJYn4ZlUhDtDQ==}
+  vite@5.4.8:
+    resolution: {integrity: sha512-FqrItQ4DT1NC4zCUqMB4c4AZORMKIa0m8/URVCZ77OZ/QSNeJ54bU1vrFADbDsuwfIPcgknRkmqakQcgnL4GiQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -1688,7 +1696,7 @@ snapshots:
 
   '@vue/shared@3.5.8': {}
 
-  '@webdeveric/utils@0.32.0':
+  '@webdeveric/utils@0.37.0':
     dependencies:
       lodash.clonedeep: 4.5.0
       lodash.escaperegexp: 4.1.2
@@ -1934,6 +1942,10 @@ snapshots:
     dependencies:
       minimatch: 9.0.5
 
+  ignore-walk@7.0.0:
+    dependencies:
+      minimatch: 9.0.5
+
   import-lazy@4.0.0: {}
 
   imurmurhash@0.1.4: {}
@@ -2134,6 +2146,10 @@ snapshots:
   npm-packlist@8.0.2:
     dependencies:
       ignore-walk: 6.0.5
+
+  npm-packlist@9.0.0:
+    dependencies:
+      ignore-walk: 7.0.0
 
   npm-pick-manifest@9.1.0:
     dependencies:
@@ -2427,16 +2443,16 @@ snapshots:
 
   validate-npm-package-name@5.0.1: {}
 
-  validate-package-exports@0.6.1:
+  validate-package-exports@0.7.0:
     dependencies:
       '@npmcli/arborist': 7.5.4
-      '@webdeveric/utils': 0.32.0
-      npm-packlist: 8.0.2
+      '@webdeveric/utils': 0.37.0
+      npm-packlist: 9.0.0
     transitivePeerDependencies:
       - bluebird
       - supports-color
 
-  vite-plugin-dts@4.2.1(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.7):
+  vite-plugin-dts@4.2.2(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.8):
     dependencies:
       '@microsoft/api-extractor': 7.47.7
       '@rollup/pluginutils': 5.1.0(rollup@4.22.4)
@@ -2449,13 +2465,13 @@ snapshots:
       magic-string: 0.30.11
       typescript: 5.6.2
     optionalDependencies:
-      vite: 5.4.7
+      vite: 5.4.8
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@5.4.7:
+  vite@5.4.8:
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
