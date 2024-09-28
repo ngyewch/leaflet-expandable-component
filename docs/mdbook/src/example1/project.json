@@ -4,13 +4,7 @@
     "index.ts": {},
     "testControl.ts": {},
     "global.css": {},
-    "package.json": {},
-    "images/test.png": {
-      "hidden": true
-    },
-    "images/test-2x.png": {
-      "hidden": true
-    }
+    "package.json": {}
   },
   "importMap": {
     "imports": {

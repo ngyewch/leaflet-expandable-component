@@ -1,5 +1,5 @@
 import {DomUtil} from 'leaflet';
-import {ExpandableControl} from 'leaflet-expandable-control';
+import {ExpandableControl} from '@ngyewch/leaflet-expandable-control';
 
 export class TestControl extends ExpandableControl {
     constructor() {

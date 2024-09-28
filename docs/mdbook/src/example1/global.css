@@ -11,11 +11,11 @@ div#map {
 /* --- */
 
 .leaflet-control-test-toggle {
-    background-image: url(images/test.png);
+    background-image: url(https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-icon.png);
 }
 
 .leaflet-retina .leaflet-control-test-toggle {
-    background-image: url(images/test-2x.png);
+    background-image: url(https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/images/marker-icon-2x.png);
     background-size: 32px 32px;
 }
 
