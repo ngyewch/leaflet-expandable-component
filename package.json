@@ -1,7 +1,15 @@
 {
   "name": "leaflet-expandable-control",
-  "private": true,
   "version": "0.1.0",
+  "description": "Leaflet expandable control",
+  "keywords": [
+    "leaflet"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngyewch/leaflet-expandable-control.git"
+  },
   "type": "module",
   "exports": {
     ".": {
